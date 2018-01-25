@@ -1,15 +1,16 @@
 ---
 layout: page
-title: About
+title: dgrej
 permalink: /about/
 ---
+A Geek!
 
-Some information about you!
+<br />
 
-### More Information
+<a href="mailto:dgrej@wavesandbox.com"><img src="https://d3kjp0zrek7zit.cloudfront.net/uploads/product/image/357/thumb_1391172616.png" /></a>
 
-A place to include any other types of information that you'd like to include about yourself.
+<br />
 
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Praia_do_Cassange.jpg">
+<br><span style="font-size: small">Gosto de praia! De preferência vazia!</span>
+<br>
