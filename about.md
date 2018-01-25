@@ -12,5 +12,5 @@ A Geek!
 <br />
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Praia_do_Cassange.jpg">
-<br><span style="font-size: small">Gosto de praia!/span>
+<br><span style="font-size: small">Gosto de praia!</span>
 <br>
