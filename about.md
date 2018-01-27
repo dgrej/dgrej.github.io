@@ -1,16 +1,7 @@
 ---
 layout: page
-title: dgrej
+title: A Geek
 permalink: /about/
 ---
-A Geek!
 
-<br />
-
-<a href="mailto:dgrej@wavesandbox.com"><img src="https://d3kjp0zrek7zit.cloudfront.net/uploads/product/image/357/thumb_1391172616.png" /></a>
-
-<br />
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Praia_do_Cassange.jpg">
-<br><span style="font-size: small">Gosto de praia!</span>
-<br>
+!(http://www.igorstshirts.com/blog/conceptships/2017/george_hull/george_hull_17.jpg)
