@@ -3,8 +3,53 @@ layout: page
 title: A Geek
 permalink: /about/
 ---
+<div class="content wrapper">
+    <div class="small-wrapper">
+  <div class="about-container">
+    <section class="about-header">
+      <div class="author-image-container">
+        <img src="/adam-blog/assets/img/adam-face.jpg" alt="Adam Neilson">
+      </div>
+      <p class="subtitle">My name is Adam Neilson. I’m a full-time adventure travel blogger and photographer who’s been exploring the world for over 2 years.</p>
+    </section>
+    <section class="about-body">
+      <ul class="contact-list">
 
-<img src="http://www.igorstshirts.com/blog/conceptships/2017/george_hull/george_hull_17.jpg" />
-<br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/O_VzPDHxmUg?rel=0&amp;showinfo=0;autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-</iframe>
+        <li class="email"><a href="mailto:example.adam@blog.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+
+
+
+        <li class="phone"><a href="tel:044 825 5523"><i class="fa fa-phone" aria-hidden="true"></i></a></li>
+
+
+
+        <li class="website"><a href="https://artemsheludko.github.io" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i></a></li>
+
+
+
+        <li class="linkedin"><a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+
+
+
+        <li class="github"><a href="http://github.com/artemsheludko" target="_blank"><i class="fa fa-github"></i></a></li>
+
+
+
+        <li class="twitter"><a href="https://twitter.com/@artemsheludko_" target="_blank"><i class="fa fa-twitter"></i></a></li>
+
+
+
+        <li class="facebook"><a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+
+
+
+        <li class="instagram"><a href="https://instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+
+
+
+        <li class="pinterest"><a href="https://pinterest.com/" target="_blank"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+
+      </ul>
+    </section> <!-- End About Body-->
+  </div> <!-- End About Container -->
+</div> <!-- End Small Wrapper -->
