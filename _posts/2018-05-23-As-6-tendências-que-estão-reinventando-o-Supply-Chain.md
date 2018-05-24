@@ -9,7 +9,7 @@ title: As 6 tendências que estão reinventando o Supply Chain
 <meta name="twitter:description" content="Um dos desafios das empresas é gerenciar o Supply Chain de forma organizada, econômica, racional e que garanta a satisfação dos seus clientes e parceiros. Com a evolução do mercado, o setor precisou se reinventar, com isso surgiu o Supply Chain 4.0, em que os processos são demandados em horas e não mais em dias.">
 <meta name="twitter:image" content="https://news.sap.com/brazil/files/2018/04/destaque-artigo-6.jpg">
 
-<center><img src="https://news.sap.com/brazil/files/2018/04/destaque-artigo-6.jpg" /><center>
+<center><img src="https://news.sap.com/brazil/files/2018/04/destaque-artigo-6.jpg" /></center>
 <br>
 <p>Um dos desafios das empresas é gerenciar o Supply Chain de forma organizada, econômica, racional e que garanta a satisfação dos seus clientes e parceiros.</p>
 <p>Com a evolução do mercado, o setor precisou se reinventar, com isso surgiu o Supply Chain 4.0, em que os processos são demandados em horas e não mais em dias.</p>
