@@ -11,6 +11,7 @@ title: As 6 tendências que estão reinventando o Supply Chain
 
 <center><img src="https://news.sap.com/brazil/files/2018/04/destaque-artigo-6.jpg" /></center>
 <br>
+<div style="text-align: justify">
 <p>Um dos desafios das empresas é gerenciar o Supply Chain de forma organizada, econômica, racional e que garanta a satisfação dos seus clientes e parceiros.</p>
 <p>Com a evolução do mercado, o setor precisou se reinventar, com isso surgiu o Supply Chain 4.0, em que os processos são demandados em horas e não mais em dias.</p>
 <p>Confira as principais mudanças no setor:</p>
@@ -23,3 +24,4 @@ title: As 6 tendências que estão reinventando o Supply Chain
 <p><strong><u>IoT</u></strong>: a conectividade entre as operações é necessária para uma melhor operacionalização da sua cadeia de suprimentos. Soluções baseadas na Internet das Coisas (IoT) permitem que as informações sejam processadas e compartilhadas rapidamente entre todos os setores do negócio e com os parceiros.</p>
 <p><strong><u>Informação como ativo</u></strong>: informação alinhada, distribuída em tempo real se tornou um dos principais valores estratégicos para as empresas. Para garantir uma gestão mais ativa e racionalizada dos recursos as empresas podem contar com tecnologias, como o armazenamento das informações em nuvem, disponíveis para todos as áreas da empresa, oferecendo maior valor aos processos operacionais e o Blockchain como meio de garantir a segurança e a integridade dos dados e aplicações, minimizando os riscos de ataques cibernéticos.</p>
 <p><strong><u>Aprimoramento da força de trabalho:</u></strong> o uso de novas tecnologias e a digitalização do Supply Chain são de grande valor para as empresas, mas para se tirar maior proveito de seu uso, é preciso que as equipes sejam treinadas adequadamente. Para isso, é importante que os processos de atração, retenção e capacitação de talentos sejam focados na atualização e no aprimoramento constantes.</p>
+</div>
