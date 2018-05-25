@@ -5,7 +5,8 @@ title: A importância da correta definição de uma rede logística
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@dinogrejo">
-<meta name="twitter:title" content="Uma rede logística é a estrutura de instalações físicas internas que uma empresa enxerga como ideal para atender a sua demanda. Todavia, esse conceito de estrutura ideal é extremamente subjetivo e depende da avaliação de diversos fatores estratégicos definidos internamente, além de outras variáveis mercadológicas. Uma empresa pode ter em sua proposta de valor a rapidez e a inovação como pilares fundamentais de seu negócio, como é o caso de indústrias do setor de tecnologia, por exemplo.">
+<meta name="twitter:title" content="A importância da correta definição de uma rede logística">
+<meta name="twitter:description" content="Uma rede logística é a estrutura de instalações físicas internas que uma empresa enxerga como ideal para atender a sua demanda. Todavia, esse conceito de estrutura ideal é extremamente subjetivo e depende da avaliação de diversos fatores estratégicos definidos internamente, além de outras variáveis mercadológicas. Uma empresa pode ter em sua proposta de valor a rapidez e a inovação como pilares fundamentais de seu negócio, como é o caso de indústrias do setor de tecnologia, por exemplo.">
 <meta name="twitter:image" content="https://thumbs.dreamstime.com/b/rede-log%C3%ADstica-99365128.jpg">
 
 <center><img src="https://thumbs.dreamstime.com/b/rede-log%C3%ADstica-99365128.jpg" /></center>
