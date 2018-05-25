@@ -47,4 +47,4 @@ title: A importância da correta definição de uma rede logística
 <p style="text-align: justify">FISHER, Marshall. <em>What is the Right Supply Chain for Your Product.</em> Harvard Business Review, 1997.</p>
 <p style="text-align: justify">LEE, Hau. <em>The Triple-A Supply Chain.</em> Harvard Business Review, 2004.</p>
 <p style="text-align: justify">WANKE, P. F.; CORREA, H. <em>Supply Chain Management and Logistics Complexity: a Contingency Approach.</em> International Journal of Logistics Economics and Globalisation, v. 4, p. 239, 2012.</p>
-<p style="text-align: justify"></div>
+<p style="text-align: justify">
