@@ -18,6 +18,8 @@ title: O custo sobre a logística e o porto de Suape
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
+<br>
 <center>
 <div class="fb-video" data-href="https://www.facebook.com/logisticaquenosmove/videos/451642631963830/" data-width="600" data-show-text="false"><blockquote cite="https://www.facebook.com/logisticaquenosmove/videos/451642631963830/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/logisticaquenosmove/videos/451642631963830/">
 </center>
+<br><br>
