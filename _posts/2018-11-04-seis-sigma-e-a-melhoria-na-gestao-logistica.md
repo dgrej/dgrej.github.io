@@ -9,7 +9,7 @@ title: Seis Sigma e a melhoria na gestão logística das empresas
 <meta name="twitter:description" content="O Seis Sigma tem por objetivo a melhoria na gestão através de uma metodologia voltada para o entendimento e a eliminação dos pontos negativos nos processos e operações, viabilizando a melhoria contínua e crescimento da lucratividade nas empresas, assim como qualidade de seus produtos e serviços.">
 <meta name="twitter:image" content="http://www.stradasolucoes.com.br/wp-content/uploads/2015/03/CIRCULO-SEIS-SIGMA-2.png">
 
-<meta property="og:url" content="" />
+<meta property="og:url" content="https://dgrej.github.io/seis-sigma-e-a-melhoria-na-gestao-logistica/" />
 <meta property="og:type" content="article" />
 <meta property="og:site_name" content="DGREJ"/>
 <meta property="og:title" content="Seis Sigma e a melhoria na gestão logística das empresas" />
@@ -34,15 +34,15 @@ title: Seis Sigma e a melhoria na gestão logística das empresas
 <ul style="text-align: justify;">
 <li style="text-align: justify;">
 <h3><strong>Medir:</strong></h3>
-<p>Assim que o problema é definido diante de suas potenciais variáveis, definir uma medida para avaliar e quantificar o problema (numericamente, inserção de índices) deve ser o próximo passo. Estamos falando de uma atribuição de valores e criação de dados estatísticos para lidar com anomalias e o ideal de normalidade dentro de cada ciclo.</li>
+<p>Assim que o problema é definido diante de suas potenciais variáveis, definir uma medida para avaliar e quantificar o problema (numericamente, inserção de índices) deve ser o próximo passo. Estamos falando de uma atribuição de valores e criação de dados estatísticos para lidar com anomalias e o ideal de normalidade dentro de cada ciclo.
 <li>
 <h3><strong>Analisar:</strong></h3>
-<p>Em posse dos dados e do que eles nos dizem, agora o objetivo é compreender a causa-efeito do problema de uma forma mais objetiva, definindo o mesmo como real ou aleatório (momentâneo), de tal forma que ao realinhar os processos e operações, estes resultem na satisfação do cliente e redução de custos, entre outros benefícios mensuráveis.</li>
+<p>Em posse dos dados e do que eles nos dizem, agora o objetivo é compreender a causa-efeito do problema de uma forma mais objetiva, definindo o mesmo como real ou aleatório (momentâneo), de tal forma que ao realinhar os processos e operações, estes resultem na satisfação do cliente e redução de custos, entre outros benefícios mensuráveis.
 <li style="text-align: justify;">
 <h3><strong>Melhorar:</strong></h3>
-<p>Neste momento as medidas já definidas devem ser tomadas para a melhoria contínua, demonstrando o real valor do <strong>Seis Sigma</strong> para a solução do problema. Aqui ferramentas e a cultura <em>Lean</em> surgem como geradoras de soluções para as situações apresentadas, eliminando desperdícios logísticos, viabilizando a redução no <em>lead</em> <em>time</em>, melhorando a acuracidade do saldo do estoque, enfim, colocando na prática o planejado e o necessário, nos levando ao próximo ponto: Controle.</li>
+<p>Neste momento as medidas já definidas devem ser tomadas para a melhoria contínua, demonstrando o real valor do <strong>Seis Sigma</strong> para a solução do problema. Aqui ferramentas e a cultura <em>Lean</em> surgem como geradoras de soluções para as situações apresentadas, eliminando desperdícios logísticos, viabilizando a redução no <em>lead</em> <em>time</em>, melhorando a acuracidade do saldo do estoque, enfim, colocando na prática o planejado e o necessário, nos levando ao próximo ponto: Controle.
 <li>
 <h3><strong>Controlar:</strong></h3>
 </li>
-</ul>
+
 <p style="padding-left: 30px; text-align: justify;">É o estágio final do DMAIC. Concentra-se em manter sob controle e dar continuidade aos processos e decisões tomadas, evitando inconformidades e reincidências quando as metas estabelecidas forem alcançadas e durante todo o ciclo: no curto, médio e longo prazo.</p>
