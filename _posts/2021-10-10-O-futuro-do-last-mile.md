@@ -41,7 +41,5 @@ do e-commerce?</h2>
 <h2>E então… Quais as soluções para a logística da última milha?</h2>
 <p>A digitalização do varejo e a expansão do e-commerce gerou uma transformação definitiva na forma como pensamos logística nas cidades. Novos comportamentos de consumo associados ao surgimento de novos modelos de negócio irão trazer grandes desafios para os gestores, empreendedores e desenvolvedores. Será preciso muita colaboração e transparência. Visibilidade dos processos em tempo real será algo cada vez mais necessário.</p>
 <p>Ainda é cedo para definir uma solução única para uma logística tão complexa como a brasileira. No mais, é recomendado que os players busquem por soluções que agreguem valor em sustentabilidade. Não só isso, as empresas tem a responsabilidade de fomentar discussões e colaboração entre os atuantes no setor. Fora isso, o investimento em pesquisa e desenvolvimento para que esses cenários mais sustentáveis idealizados recebam os insumos necessários e possam se tornar realidade.</p>
-<p>Gostou deste conteúdo? Não deixe de assinar a nossa newsletter e receba informações atualizadas sobre os mercados de<br />
-e-commerce, tecnologia e logística!</p>
 
 fonte:https://www.intelipost.com.br/blog/futuro-do-last-mile/
