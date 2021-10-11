@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OFuturo do last mile - impactos no crescimento do ecommerce
+title: O Futuro do last mile - impactos no crescimento do ecommerce
 ---
 
 <meta name="twitter:card" content="summary_large_image">
