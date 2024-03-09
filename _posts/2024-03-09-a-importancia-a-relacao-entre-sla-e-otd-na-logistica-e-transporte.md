@@ -51,9 +51,6 @@ No Excel, você pode usar a função `=PORCENTAGEM(valor1; valor2)` para calcula
 
 Isso calculará a porcentagem de pedidos entregues no prazo em relação ao número total de pedidos.
 
-3. **Formate o resultado**: Após calcular o OTD, você pode formatar o resultado para exibir a porcentagem da maneira desejada.
-
-Dessa forma, você pode usar o Excel para calcular o OTD com base nos dados disponíveis sobre as entregas realizadas dentro do prazo em relação ao número total de pedidos ou entregas.
 
 ## Conclusão
 
