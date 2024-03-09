@@ -35,6 +35,26 @@ A relação entre **SLA** e **OTD** é intrínseca. Muitas vezes, o **SLA** incl
 
 Em suma, a relação entre **SLA** e **OTD** é essencial para garantir a qualidade e o cumprimento das expectativas de entrega no ambiente de logística e transporte. Ao estabelecer padrões claros de serviço e monitorar de perto o desempenho da entrega, as empresas podem melhorar sua eficiência operacional, aumentar a satisfação do cliente e manter uma vantagem competitiva no mercado.
 
+## Calcular o OTD (On-Time Delivery)
+
+Para calcular o OTD (On-Time Delivery) no Excel, você pode seguir os seguintes passos:
+
+1. **Organize seus dados**: Certifique-se de que você tenha os dados necessários para calcular o OTD. Isso inclui o número total de pedidos ou entregas e o número de pedidos ou entregas entregues dentro do prazo.
+
+2. **Calcule o OTD**: Para calcular o OTD, você pode usar a seguinte fórmula no Excel:
+   
+OTD = (Número de Pedidos Entregues no Prazo / Número Total de Pedidos) × 100%
+
+No Excel, você pode usar a função `=PORCENTAGEM(valor1; valor2)` para calcular a porcentagem. Assim, supondo que o número de pedidos entregues no prazo esteja na célula A1 e o número total de pedidos esteja na célula B1, você pode usar a fórmula:
+
+=PORCENTAGEM(A1; B1)
+
+Isso calculará a porcentagem de pedidos entregues no prazo em relação ao número total de pedidos.
+
+3. **Formate o resultado**: Após calcular o OTD, você pode formatar o resultado para exibir a porcentagem da maneira desejada.
+
+Dessa forma, você pode usar o Excel para calcular o OTD com base nos dados disponíveis sobre as entregas realizadas dentro do prazo em relação ao número total de pedidos ou entregas.
+
 ## Conclusão
 
 A relação entre SLA e OTD é que o SLA pode incluir um componente relacionado ao OTD. Por exemplo, em um SLA entre um fornecedor e um cliente, pode haver uma cláusula que estabelece que um certo percentual de entregas deve ser realizada dentro de um prazo específico, refletindo assim um compromisso com o OTD. O OTD, portanto, pode ser uma métrica monitorada para garantir que o SLA seja cumprido.
