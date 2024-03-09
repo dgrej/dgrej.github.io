@@ -7,11 +7,9 @@ title: A Importância da Relação entre SLA e OTD na Logística e Transporte
 <meta name="twitter:site" content="@dinogrejo">
 <meta name="twitter:title" content="A Importância da Relação entre SLA e OTD na Logística e Transporte">
 <meta name="twitter:description" content=" relação entre SLA e OTC na logistica e transporte, tendo como base as informações O SLA (Service Level Agreement), ou Acordo de Nível de Serviço, e o OTD (On-Time Delivery), ou Entrega no Prazo, estão relacionados, mas são conceitos ligeiramente diferentes">
-<meta name="twitter:image" content="https://www.garbuio.com.br/wp-content/uploads/2024/01/Dicas-para-reduzir-custos-e-tempo-no-transporte-de-cargas.jpg">
+<meta name="twitter:image" content="https://www.saloodo.com/wp-content/uploads/2021/09/transit-time-1-300x136.png">
 
-<center><img src="https:/www.garbuio.com.br/wp-content/uploads/2024/01/Dicas-para-reduzir-custos-e-tempo-no-transporte-de-cargas.jpg" /></center>
-
-# A Importância da Relação entre SLA e OTD na Logística e Transporte
+<center><img src="https://www.saloodo.com/wp-content/uploads/2021/09/transit-time-1-300x136.png" /></center>
 
 A relação entre SLA e OTC na logistica e transporte, tendo como base as informações O SLA (Service Level Agreement), ou Acordo de Nível de Serviço, e o OTD (On-Time Delivery), ou Entrega no Prazo, estão relacionados, mas são conceitos ligeiramente diferentes:
 
