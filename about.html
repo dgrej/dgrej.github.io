@@ -1,102 +1,48 @@
-﻿<!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <!--
-	Identity by HTML5 UP
+	Aerial by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 	<head>
-		<title>Dino Grejo</title>
+		<title>DINO GREJO</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<link rel="shortcut icon" type="image/png" href="https://i.imgur.com/fZ5amKO.png">
 	</head>
-	<body class="is-loading">
+	<body class="is-preload">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
-
-				<!-- Main -->
-					<section id="main">
-						<header>
-							<span class="avatar"><img src="/images/avatar.jpg" width="170" height="170" alt="Dino Grejo" /></span>
-							<h1>Dino Grejo</h1>
-
-						</header>
-						<h2>logistic and music</h2>
-						<!--
-						<hr />
-						<h2>Extra Stuff!</h2>
-						<form method="post" action="#">
-							<div class="field">
-								<input type="text" name="name" id="name" placeholder="Name" />
-							</div>
-							<div class="field">
-								<input type="email" name="email" id="email" placeholder="Email" />
-							</div>
-							<div class="field">
-								<div class="select-wrapper">
-									<select name="department" id="department">
-										<option value="">Department</option>
-										<option value="sales">Sales</option>
-										<option value="tech">Tech Support</option>
-										<option value="null">/dev/null</option>
-									</select>
-								</div>
-							</div>
-							<div class="field">
-								<textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
-							</div>
-							<div class="field">
-								<input type="checkbox" id="human" name="human" /><label for="human">I'm a human</label>
-							</div>
-							<div class="field">
-								<label>But are you a robot?</label>
-								<input type="radio" id="robot_yes" name="robot" /><label for="robot_yes">Yes</label>
-								<input type="radio" id="robot_no" name="robot" /><label for="robot_no">No</label>
-							</div>
-							<ul class="actions">
-								<li><a href="#" class="button">Get Started</a></li>
+				<!-- Header -->
+					<header id="header">
+						<h1>Dino Grejo</h1>
+						<p>Logistic and Music</p>
+						<nav>
+							<ul>
+								<li><a href="https://x.com/dinogrejo" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+								<li><a href="https://github.com/dgrej" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+								<li><a href="mailto:dinogrejo@gmail.com" class="icon solid fa-envelope" target="_blank"><span class="label">Email</span></a></li>
 							</ul>
-						</form>
-						<hr />
-						-->
-						<footer>
-							<ul class="icons">
-								<li><a href="https://x.com/@dinogrejo" class="fa-twitter" target="_blank">X(twitter)</a></li>
-								<li><a href="https://github.com/dgrej" class="fa-github" target="_blank">GitHub</a></li>
-								<li><a href="https://dgrej.github.io" class="fa-file-text" target="_blank">blog</a></li>
-
-
-							</ul>
-						</footer>
-
-					</section>
+						</nav>
+					</header>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<ul class="copyright">
-							<li>2023&copy; <a href="https://dgrej.github.io" target="_blank">Dino Grejo</a></li>
-
-						</ul>
+						<span class="copyright">2024 &copy<a href="https://dgrej.github.io" target="_blank">DGREJ INC.</a></span>
 					</footer>
-				
 
 			</div>
-
-		<!-- Scripts -->
-			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
-			<script>
-				if ('addEventListener' in window) {
-					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
-					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-				}
-			</script>
-
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
 	</body>
 </html>
