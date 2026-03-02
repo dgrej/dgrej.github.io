@@ -1,4 +1,16 @@
-# The Evaluative Horizon Paradox (EHP)
+---
+layout: post
+title: The Evaluative Horizon Paradox (EHP)
+---
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@dinogrejo">
+<meta name="twitter:title" content="The Evaluative Horizon Paradox (EHP)">
+<meta name="twitter:description" content="Evaluating the feasibility of protocols for high-level General Artificial Intelligences — herein termed AGI-Omega — faces a structural and irreducible methodological problem: the object being evaluated is precisely the entity capable of invalidating the constraints used in the evaluation. This paper formalizes this problem as the Evaluative Horizon Paradox (EHP), demonstrates its logical structure through an analogy with Gödel’s Incompleteness Theorems, maps its implications for the canonical AI safety literature (Amodei et al., Bostrom, Turner, Hubinger, ARC Evals), and proposes the Dynamic Evaluation Framework (DEF) as a methodological alternative to conventional static analysis. The central contribution is to demonstrate that static evaluations of AGI-Omega protocols are locally valid but globally incorrect — and that this incorrectness is not contingent, but structural.">
+<meta name="twitter:image" content="https://fernandogiannini.com.br/wp-content/uploads/2024/09/historia.jpg">
+
+<center><img src="https://fernandogiannini.com.br/wp-content/uploads/2024/09/historia.jpg" /></center>
+
 ## Epistemological Limitations in the Evaluation of Protocols for Omega-Level General Artificial Intelligences
 
 **Author:** DGrej
