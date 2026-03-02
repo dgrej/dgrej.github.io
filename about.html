@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>DINO GREJO</title>
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:wght@300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400&display=swap" rel="stylesheet">
   <style>
     :root {
       --accent: #EFB078;
@@ -131,11 +131,12 @@
 
     /* Name */
     h1 {
-      font-family: 'Syne', sans-serif;
-      font-weight: 800;
-      font-size: 2.2rem;
-      letter-spacing: -0.04em;
+      font-family: 'Bebas Neue', sans-serif;
+      font-weight: 400;
+      font-size: 3rem;
+      letter-spacing: 0.12em;
       line-height: 1;
+      white-space: nowrap;
       margin-bottom: 0.5rem;
       background: linear-gradient(135deg, #f5e6d3 0%, var(--accent) 60%, #c8895a 100%);
       -webkit-background-clip: text;
@@ -292,14 +293,14 @@
       </li>
       <!-- Email -->
       <li>
-        <a href="mailto:dinogrejo@gmail.com" aria-label="Email">
+        <a href="mailto:dinogrejo@gmail.com" target="_blank" aria-label="Email">
           <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 2v.01L12 13 4 6.01V6h16zM4 18V8.2l7.6 6.8c.3.3.8.3 1.1 0L20 8.2V18H4z"/></svg>
         </a>
       </li>
     </ul>
   </div>
 
-  <script>
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
     // Mouse parallax effect on card
     const card = document.querySelector('.card');
     const glow = document.querySelector('.glow');
@@ -311,9 +312,4 @@
       glow.style.transform = `translate(calc(-50% + ${x * 30}px), calc(-50% + ${y * 30}px))`;
     });
 
-    document.addEventListener('mouseleave', () => {
-      card.style.transform = 'perspective(800px) rotateY(0deg) rotateX(0deg)';
-    });
-  </script>
-</body>
-</html>
+    document.addE
