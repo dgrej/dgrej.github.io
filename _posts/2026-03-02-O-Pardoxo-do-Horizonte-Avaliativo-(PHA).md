@@ -1,4 +1,16 @@
-# O Paradoxo do Horizonte Avaliativo (PHA)
+---
+layout: post
+title: O Paradoxo do Horizonte Avaliativo (PHA)
+---
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@dinogrejo">
+<meta name="twitter:title" content="O Paradoxo do Horizonte Avaliativo (PHA)">
+<meta name="twitter:description" content="A avaliação de viabilidade de protocolos para Inteligências Artificiais Gerais (IAGs) de alto nível — aqui denominadas IAG-Omega — enfrenta um problema metodológico estrutural e irredutível: o objeto avaliado é precisamente a entidade capaz de invalidar as restrições utilizadas na avaliação. Este artigo formaliza esse problema como Paradoxo do Horizonte Avaliativo (PHA), demonstra sua estrutura lógica através de analogia com o Teorema da Incompletude de Gödel, mapeia suas implicações para a literatura canônica de AI safety (Amodei et al., Bostrom, Turner, Hubinger, ARC Evals) e propõe o Framework de Avaliação Dinâmica (FAD) como alternativa metodológica à análise estática convencional. A contribuição central é demonstrar que avaliações estáticas de protocolos IAG-Omega são localmente válidas mas globalmente incorretas — e que essa incorreção não é contingente, mas estrutural.">
+<meta name="twitter:image" content="https://fernandogiannini.com.br/wp-content/uploads/2024/09/historia.jpg">
+
+<center><img src="https://fernandogiannini.com.br/wp-content/uploads/2024/09/historia.jpg" /></center>
+
 ## Limitações Epistemológicas na Avaliação de Protocolos para Inteligências Artificiais Gerais de Nível Omega
 
 **Autor:** DGrej  
