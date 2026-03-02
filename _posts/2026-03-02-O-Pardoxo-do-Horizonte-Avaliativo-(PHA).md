@@ -17,7 +17,7 @@ title: O Paradoxo do Horizonte Avaliativo (PHA)
 **Publicação:** dgrej.github.io  
 **Área:** Segurança de IA / AI Safety / Filosofia da Tecnologia  
 **Status:** Preprint — Revisão Aberta  
-**Data:** 2026
+**Data:** Março 2, 2026
 
 ---
 

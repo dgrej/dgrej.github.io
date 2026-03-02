@@ -17,7 +17,7 @@ title: The Evaluative Horizon Paradox (EHP)
 **Publication:** dgrej.github.io
 **Field:** AI Safety / Philosophy of Technology
 **Status:** Preprint — Open Review
-**Date:** 2026
+**Date:** March 2, 2026
 
 ---
 
