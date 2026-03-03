@@ -14,10 +14,10 @@ title: The Evaluative Horizon Paradox (EHP)
 ## The Evaluative Horizon Paradox (EHP): Epistemological Limitations in the Assessment of Protocols for Omega-Level Artificial General Intelligences
 
 **Author:** Dino Grejo  
-**Affiliation:** Independent Researcher, dgrej.github.io 
+**Affiliation:** Independent Researcher, dgrej.github.io  
 **DOI:** [10.5281/zenodo.18846892](https://doi.org/10.5281/zenodo.18846892)
 **Contact:** dinogrejo@gmail.com  
-**Subject Classification:** cs.AI (Primary); cs.LG (Secondary)  
+**Subject Classification:** cs.AI (Primary); cs.LG (Secondary)   a
 **Preprint:** dgrej.github.io/The-Evaluative-Horizon-Paradox-(EHP)  
 **Date:** March 2026  
 **License:** CC-BY 4.0  
