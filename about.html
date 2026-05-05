@@ -1,316 +1,323 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DINO GREJO</title>
+  <meta charset="UTF-8">
+  <title>Dino Grejo</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light only">
+  <meta name="description" content="Logistic & Music" />
+  <meta property="og:site_name" content="Dino Grejo" />
+  <meta property="og:title" content="Dino Grejo" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="Logistic & Music" />
+  <meta property="og:url" content="https://dgrej.github.io/about" />
+  <meta property="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href="https://dgrej.github.io/about" />
+  
   <link rel="shortcut icon" type="image/png" href="https://i.imgur.com/fZ5amKO.png">
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400&display=swap" rel="stylesheet">
+
   <style>
-    :root {
-      --accent: #EFB078;
-      --accent-dark: #c8895a;
-      --bg: #111111;
-      --surface: #141210;
-      --text: #f0ece6;
-      --muted: #7a7268;
+    html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+    article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+    body{line-height:1;}
+    ol,ul{list-style:none;}
+    blockquote,q{quotes:none;}
+    blockquote::before,blockquote::after,q::before,q::after{content:'';content:none;}
+    table{border-collapse:collapse;border-spacing:0;}
+    body{-webkit-text-size-adjust:none}
+    mark{background-color:transparent;color:inherit}
+    input::-moz-focus-inner{border:0;padding:0}
+    input[type="text"],input[type="email"],select,textarea{-moz-appearance:none;-webkit-appearance:none;-ms-appearance:none;appearance:none}
+    *,*::before,*::after{box-sizing:border-box;}
+
+    @keyframes loading-spinner{0%{transform:rotate(0deg);}100%{transform:rotate(360deg);}}
+
+    .deferred::before{content:'';display:block;width:4rem;height:4rem;position:absolute;top:50%;left:50%;margin:-2rem 0 0 -2rem;animation:loading-spinner 1s infinite linear;transition:opacity 0.25s ease;transition-delay:0.5s;opacity:0;z-index:-1;background-image:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iOTZweCIgaGVpZ2h0PSI5NnB4IiB2aWV3Qm94PSIwIDAgOTYgOTYiIHpvb21BbmRQYW49ImRpc2FibGUiPjxzdHlsZT5jaXJjbGUge2ZpbGw6IHRyYW5zcGFyZW50OyBzdHJva2U6ICNmZmY7IHN0cm9rZS13aWR0aDogMS41cHg7IH08L3N0eWxlPjxkZWZzPjxjbGlwUGF0aCBpZD0iY29ybmVyIj48cG9seWdvbiBwb2ludHM9IjAsMCA0OCwwIDQ4LDQ4IDk2LDQ4IDk2LDk2IDAsOTYiIC8+PC9jbGlwUGF0aD48L2RlZnM+PGcgY2xpcC1wYXRoPSJ1cmwoI2Nvcm5lcikiPjxjaXJjbGUgY3g9IjQ4IiBjeT0iNDgiIHI9IjMyIi8+PC9nPjwvc3ZnPg==');background-position:center;background-repeat:no-repeat;background-size:3rem;}
+    .deferred.loading::before{opacity:0.35;z-index:0;}
+
+    body{line-height:1.0;min-height:var(--viewport-height);min-width:320px;overflow-x:hidden;word-wrap:break-word;background-color:#F0F2F5;}
+
+    :root{
+      --background-height:100vh;
+      --site-language-alignment:left;
+      --site-language-direction:ltr;
+      --site-language-flex-alignment:flex-start;
+      --site-language-indent-left:1;
+      --site-language-indent-right:0;
+      --site-language-margin-left:0;
+      --site-language-margin-right:auto;
+      --viewport-height:100vh;
     }
 
-    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html{font-size:18pt;}
+    u{text-decoration:underline;}
+    strong{color:inherit;font-weight:bolder;}
+    em{font-style:italic;}
+    code{background-color:rgba(144,144,144,0.25);border-radius:0.25em;font-family:'Lucida Console','Courier New',monospace;font-size:0.9em;font-weight:normal;letter-spacing:0;margin:0 0.25em;padding:0.25em 0.5em;text-indent:0;}
+    mark{background-color:rgba(144,144,144,0.25);}
+    a{color:inherit;text-decoration:underline;transition:color 0.25s ease;}
 
-    body {
-      font-family: 'DM Sans', sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      overflow: hidden;
+    .site-wrapper{-webkit-overflow-scrolling:touch;align-items:center;display:flex;flex-direction:column;justify-content:center;min-height:var(--viewport-height);overflow:hidden;position:relative;z-index:2;padding:2.5rem 2.5rem 2.5rem 2.5rem;}
+    .site-main{--alignment:left;--flex-alignment:flex-start;--indent-left:1;--indent-right:0;--margin-left:0;--margin-right:auto;--border-radius-tl:0;--border-radius-tr:0;--border-radius-br:0;--border-radius-bl:0;align-items:center;display:flex;flex-grow:0;flex-shrink:0;justify-content:center;max-width:100%;position:relative;text-align:var(--alignment);z-index:1;background-color:#FFFFFF;box-shadow:0rem 0.875rem 1.5rem 0rem rgba(32,46,66,0.059);transition:opacity 1.25s ease-in-out 0s;}
+    .site-main>.inner{--padding-horizontal:2.5rem;--padding-vertical:3.5rem;--spacing:1.75rem;--width:25rem;border-radius:var(--border-radius-tl) var(--border-radius-tr) var(--border-radius-br) var(--border-radius-bl);max-width:100%;position:relative;width:var(--width);z-index:1;padding:var(--padding-vertical) var(--padding-horizontal);}
+    .site-main>.inner>*{margin-top:var(--spacing);margin-bottom:var(--spacing);}
+    .site-main>.inner>:first-child{margin-top:0 !important;}
+    .site-main>.inner>:last-child{margin-bottom:0 !important;}
+    .site-main>.inner>.full{margin-left:calc(var(--padding-horizontal) * -1);max-width:calc(100% + calc(var(--padding-horizontal) * 2) + 0.4725px);width:calc(100% + calc(var(--padding-horizontal) * 2) + 0.4725px);}
+    .site-main>.inner>.full:first-child{border-top-left-radius:inherit;border-top-right-radius:inherit;margin-top:calc(var(--padding-vertical) * -1) !important;}
+    .site-main>.inner>.full:last-child{border-bottom-left-radius:inherit;border-bottom-right-radius:inherit;margin-bottom:calc(var(--padding-vertical) * -1) !important;}
+    .site-main>.inner>.full.screen{border-radius:0 !important;max-width:100vw;position:relative;width:100vw;left:50%;margin-left:-50vw;right:auto;}
+
+    body.is-loading .site-main{opacity:0;}
+    body.is-instant .site-main,body.is-instant .site-main>.inner>*,body.is-instant .site-main>.inner>section>*{transition:none !important;}
+    body.is-instant::after{display:none !important;transition:none !important;}
+
+    .image-component{display:block;line-height:0;max-width:100%;position:relative;}
+    .image-component>.frame{-webkit-backface-visibility:hidden;-webkit-transform:translate3d(0,0,0);display:inline-block;max-width:100%;overflow:hidden;vertical-align:top;width:100%;}
+    .image-component>.frame>img{border-radius:0 !important;max-width:100%;vertical-align:top;width:inherit;}
+    .image-component.full>.frame{display:block;}
+    .image-component.full:first-child>.frame{border-top-left-radius:inherit;border-top-right-radius:inherit;}
+    .image-component.full:last-child>.frame{border-bottom-left-radius:inherit;border-bottom-right-radius:inherit;}
+    .image-component.instance-1:not(:first-child){margin-top:2.75rem !important;}
+    .image-component.instance-1:not(:last-child){margin-bottom:2.75rem !important;}
+    .image-component.instance-1>.frame{width:100vw;transition:none;}
+    .image-component.instance-1>.frame>img{transition:none;}
+
+    .text-component{direction:var(--site-language-direction);position:relative;}
+    .text-component span.p{display:block;position:relative;}
+    .text-component span[style],.text-component strong,.text-component a,.text-component code,.text-component mark{-webkit-text-fill-color:currentcolor;}
+    .text-component.instance-2{color:#898E96;font-family:'Arial',sans-serif;letter-spacing:-0.075rem;width:100%;font-size:2.25em;line-height:1.5;font-weight:700;}
+    .text-component.instance-2 a{text-decoration:underline;}
+    .text-component.instance-2 a:hover{text-decoration:none;}
+    .text-component.instance-2 span.p:nth-child(n+2){margin-top:1rem;}
+    .text-component.instance-1{color:#989EA6;font-family:'Arial',sans-serif;font-size:1.125em;line-height:1.75;font-weight:400;}
+    .text-component.instance-1 a{text-decoration:underline;}
+    .text-component.instance-1 a:hover{text-decoration:none;}
+    .text-component.instance-1 span.p:nth-child(n+2){margin-top:1rem;}
+    .text-component.instance-3{color:rgba(152,158,166,0.588);font-family:'Arial',sans-serif;font-size:1em;line-height:1.75;font-weight:400;}
+    .text-component.instance-3 a{text-decoration:underline;}
+    .text-component.instance-3 a:hover{text-decoration:none;}
+    .text-component.instance-3 span.p:nth-child(n+2){margin-top:1rem;}
+    
+    /* ✅ NOVA CLASSE PARA BIO - fonte menor e cor mais clara */
+    .text-component.instance-4{color:#B8BCC4;font-family:'Arial',sans-serif;font-size:0.95em;line-height:1.75;font-weight:400;}
+    .text-component.instance-4 a{text-decoration:underline;}
+    .text-component.instance-4 a:hover{text-decoration:none;}
+    .text-component.instance-4 span.p:nth-child(n+2){margin-top:1rem;}
+
+    .container-component{position:relative;}
+    .container-component>.wrapper{vertical-align:top;position:relative;max-width:100%;border-radius:inherit;}
+    .container-component>.wrapper>.inner{vertical-align:top;position:relative;max-width:100%;border-radius:inherit;text-align:var(--alignment);}
+    .container-component.columns01>.wrapper{display:inline-block;width:25rem;background-color:transparent;}
+    .container-component.columns01>.wrapper>.inner{--gutters:2rem;--padding-horizontal:0rem;--padding-vertical:0rem;--spacing:0.25rem;padding:var(--padding-vertical) var(--padding-horizontal);}
+    .container-component.columns01.default>.wrapper>.inner>*{margin-bottom:var(--spacing);margin-top:var(--spacing);}
+    .container-component.columns01.default>.wrapper>.inner>*:first-child{margin-top:0 !important;}
+    .container-component.columns01.default>.wrapper>.inner>*:last-child{margin-bottom:0 !important;}
+
+    .icons-component{display:flex;flex-wrap:wrap;justify-content:var(--flex-alignment);letter-spacing:0;padding:0;}
+    .icons-component>li{position:relative;z-index:1;}
+    .icons-component>li>a{align-items:center;display:flex;justify-content:center;}
+    .icons-component>li>a>svg{display:block;pointer-events:none;position:relative;}
+    .icons-component>li>a+svg{display:block;height:100%;left:0;pointer-events:none;position:absolute;top:0;width:100%;z-index:-1;}
+    .icons-component>li>a>.label{display:none;}
+    .icons-component.instance-1{font-size:1.5em;gap:0.75rem;}
+    .icons-component.instance-1:not(:first-child){margin-top:2.125rem !important;}
+    .icons-component.instance-1:not(:last-child){margin-bottom:2.125rem !important;}
+    .icons-component.instance-1>li>a{height:1em;width:1em;transition:color 0.25s ease,background-color 0.25s ease,border-color 0.25s ease;}
+    .icons-component.instance-1>li>a>svg{height:100%;width:100%;fill:#989EA6;transition:fill 0.25s ease;}
+    .icons-component.instance-1>li>a:hover>svg{fill:#8393E6 !important;}
+    .icons-component.instance-1>li>a+svg{transition:fill 0.25s ease,stroke 0.25s ease;}
+
+    @media (max-width:1680px){html{font-size:13pt;}}
+    @media (max-width:1280px){html{font-size:13pt;}}
+    @media (max-width:980px){html{font-size:11pt;}}
+    @media (max-width:736px){
+      html{font-size:11pt;}
+      .site-wrapper{padding:1.875rem 1.875rem 1.875rem 1.875rem;}
+      .site-main>.inner{--padding-horizontal:2rem;--padding-vertical:3.5rem;--spacing:1.75rem;}
+      .image-component.instance-1:not(:first-child){margin-top:2.0625rem !important;}
+      .image-component.instance-1:not(:last-child){margin-bottom:2.0625rem !important;}
+      .text-component.instance-2{letter-spacing:-0.065625rem;width:100%;font-size:2.25em;line-height:1.5;}
+      .text-component.instance-1{letter-spacing:0rem;width:100%;font-size:1.125em;line-height:1.75;}
+      .text-component.instance-3{letter-spacing:0rem;width:100%;font-size:1em;line-height:1.75;}
+      .text-component.instance-4{letter-spacing:0rem;width:100%;font-size:0.95em;line-height:1.75;}
+      .icons-component.instance-1{font-size:1.5em;gap:0.75rem;}
+      .icons-component.instance-1:not(:first-child){margin-top:1.59375rem !important;}
+      .icons-component.instance-1:not(:last-child){margin-bottom:1.59375rem !important;}
     }
-
-    /* Noise texture overlay */
-    body::before {
-      content: '';
-      position: fixed;
-      inset: 0;
-      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
-      pointer-events: none;
-      z-index: 100;
-      opacity: 0.5;
+    @media (max-width:480px){
+      .site-wrapper{padding:0.875rem 0.875rem 0.875rem 0.875rem;}
+      .site-main>.inner{--spacing:1.53125rem;}
     }
-
-    /* Ambient glow */
-    .glow {
-      position: fixed;
-      width: 600px;
-      height: 600px;
-      border-radius: 50%;
-      background: radial-gradient(circle, rgba(239,176,120,0.07) 0%, transparent 70%);
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      pointer-events: none;
-      animation: pulse 6s ease-in-out infinite;
-    }
-
-    @keyframes pulse {
-      0%, 100% { transform: translate(-50%, -50%) scale(1); opacity: 0.6; }
-      50% { transform: translate(-50%, -50%) scale(1.15); opacity: 1; }
-    }
-
-    /* Card */
-    .card {
-      position: relative;
-      width: 380px;
-      padding: 3rem 2.5rem;
-      border: 1px solid rgba(239,176,120,0.12);
-      border-radius: 24px;
-      background: rgba(20,18,16,0.9);
-      backdrop-filter: blur(20px);
-      text-align: center;
-      opacity: 0;
-      transform: translateY(30px) scale(0.97);
-      animation: reveal 1s cubic-bezier(0.22, 1, 0.36, 1) 0.2s forwards;
-    }
-
-    .card::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      border-radius: 24px;
-      padding: 1px;
-      background: linear-gradient(135deg, rgba(239,176,120,0.3), transparent 50%, rgba(239,176,120,0.08));
-      -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-      -webkit-mask-composite: xor;
-      mask-composite: exclude;
-      pointer-events: none;
-    }
-
-    @keyframes reveal {
-      to { opacity: 1; transform: translateY(0) scale(1); }
-    }
-
-    /* Avatar */
-    .avatar-wrap {
-      position: relative;
-      width: 100px;
-      height: 100px;
-      margin: 0 auto 1.75rem;
-    }
-
-    .avatar-ring {
-      position: absolute;
-      inset: -5px;
-      border-radius: 50%;
-      background: conic-gradient(var(--accent) 0deg, transparent 120deg, var(--accent-dark) 240deg, transparent 360deg);
-      animation: spin 8s linear infinite;
-    }
-
-    @keyframes spin { to { transform: rotate(360deg); } }
-
-    .avatar-ring::after {
-      content: '';
-      position: absolute;
-      inset: 3px;
-      border-radius: 50%;
-      background: var(--bg);
-    }
-
-    .avatar {
-      position: relative;
-      z-index: 1;
-      width: 100%;
-      height: 100%;
-      border-radius: 50%;
-      object-fit: cover;
-      display: block;
-      transition: transform 0.4s cubic-bezier(0.34,1.56,0.64,1);
-    }
-
-    .avatar:hover { transform: scale(1.06); }
-
-    /* Name */
-    h1 {
-      font-family: 'Bebas Neue', sans-serif;
-      font-weight: 400;
-      font-size: 3rem;
-      letter-spacing: 0.12em;
-      line-height: 1;
-      white-space: nowrap;
-      margin-bottom: 0.5rem;
-      background: linear-gradient(135deg, #f5e6d3 0%, var(--accent) 60%, #c8895a 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-    }
-
-    .subtitle {
-      font-size: 0.85rem;
-      color: var(--muted);
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      font-weight: 300;
-      margin-bottom: 2rem;
-    }
-
-    /* Divider */
-    .divider {
-      height: 1px;
-      background: linear-gradient(90deg, transparent, rgba(239,176,120,0.25), transparent);
-      margin-bottom: 2rem;
-    }
-
-    /* Social */
-    .social-icons {
-      list-style: none;
-      display: flex;
-      justify-content: center;
-      gap: 0.75rem;
-    }
-
-    .social-icons li {
-      opacity: 0;
-      transform: translateY(12px);
-      animation: popIn 0.5s cubic-bezier(0.34,1.56,0.64,1) forwards;
-    }
-
-    .social-icons li:nth-child(1) { animation-delay: 0.7s; }
-    .social-icons li:nth-child(2) { animation-delay: 0.82s; }
-    .social-icons li:nth-child(3) { animation-delay: 0.94s; }
-    .social-icons li:nth-child(4) { animation-delay: 1.06s; }
-    .social-icons li:nth-child(5) { animation-delay: 1.18s; }
-
-    @keyframes popIn {
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    .social-icons a {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 46px;
-      height: 46px;
-      border-radius: 14px;
-      background: rgba(239,176,120,0.06);
-      border: 1px solid rgba(239,176,120,0.1);
-      color: var(--muted);
-      text-decoration: none;
-      transition: all 0.25s cubic-bezier(0.34,1.56,0.64,1);
-      position: relative;
-      overflow: hidden;
-    }
-
-    .social-icons a::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: radial-gradient(circle at center, rgba(239,176,120,0.15), transparent 70%);
-      opacity: 0;
-      transition: opacity 0.25s;
-    }
-
-    .social-icons a:hover {
-      color: var(--accent);
-      border-color: rgba(239,176,120,0.4);
-      transform: translateY(-4px) scale(1.05);
-      box-shadow: 0 8px 24px rgba(239,176,120,0.15);
-    }
-
-    .social-icons a:hover::before { opacity: 1; }
-
-    .social-icons svg {
-      width: 20px;
-      height: 20px;
-      fill: currentColor;
-      position: relative;
-      z-index: 1;
-    }
-
-    /* Tag */
-    .tag {
-      display: inline-block;
-      margin: 0 3px;
-      padding: 3px 10px;
-      border-radius: 20px;
-      background: rgba(239,176,120,0.1);
-      border: 1px solid rgba(239,176,120,0.2);
-      font-size: 0.72rem;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      color: var(--accent);
-      font-weight: 400;
-    }
-
-    .tags {
-      margin-bottom: 2rem;
-      opacity: 0;
-      animation: reveal 0.8s ease 0.9s forwards;
+    @media (max-width:360px){
+      .site-wrapper{padding:0.5rem 0.5rem 0.5rem 0.5rem;}
+      .site-main>.inner{--padding-horizontal:1.5rem;--padding-vertical:2.625rem;--spacing:1.3125rem;}
+      .text-component.instance-2{font-size:2em;}
+      .text-component.instance-1{font-size:1.125em;}
+      .text-component.instance-3{font-size:1em;}
+      .text-component.instance-4{font-size:0.95em;}
+      .icons-component.instance-1{gap:0.5625rem;}
     }
   </style>
+
+  <noscript>
+    <style>
+      body{overflow:auto !important;}
+      .site-main{opacity:1.0 !important;transform:none !important;transition:none !important;filter:none !important;}
+    </style>
+  </noscript>
 </head>
-<body>
-  <div class="glow"></div>
-  <div class="card">
-    <div class="avatar-wrap">
-      <div class="avatar-ring"></div>
-      <img src="https://avatars3.githubusercontent.com/u/8224597?s=400&v=4" alt="Dino Grejo" class="avatar" />
+
+<body class="is-loading">
+
+<!-- ✅ SVGs CORRIGIDOS - Icons simples e funcionais -->
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" display="none" width="0" height="0">
+
+  <!-- GitHub -->
+  <symbol id="icon-github" viewBox="0 0 24 24">
+    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+  </symbol>
+
+  <!-- X (Twitter) -->
+  <symbol id="icon-x" viewBox="0 0 24 24">
+    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+  </symbol>
+
+  <!-- YouTube -->
+  <symbol id="icon-youtube" viewBox="0 0 24 24">
+    <path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.6 3.5 12 3.5 12 3.5s-7.6 0-9.4.6A3 3 0 0 0 .5 6.2 31.6 31.6 0 0 0 0 12a31.6 31.6 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.8.6 9.4.6 9.4.6s7.6 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.6 31.6 0 0 0 24 12a31.6 31.6 0 0 0-.5-5.8zM9.75 15.5v-7l6 3.5-6 3.5z"/>
+  </symbol>
+
+  <!-- TikTok -->
+<symbol id="icon-tiktok" viewBox="0 0 24 24">
+  <path d="M12.53.02C13.84 0 15.14.01 16.44 0c.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/>
+</symbol>
+
+<!-- Bandcamp -->
+<symbol id="icon-bandcamp" viewBox="0 0 24 24">
+  <path d="M2 18l5-12h13l-5 12H2z"/>
+</symbol>
+
+<!-- Website/Blog -->
+<symbol id="icon-website" viewBox="0 0 24 24">
+  <path transform="scale(-1, 1) translate(-24, 0)" d="M7.6 21.8c0-3.5-1.3-6.7-3.6-9.4l-1.4-1.5 3.2 0.1 3.2 0.1 0 1c0 0.9-0.1 1-1 1.1-0.5 0-0.9 0.2-0.9 0.3 0.8 1.7 1.4 2.9 1.6 3.4 0.2 0.5 0.2 0.5 0.6-0.4 1.4-3.2 0.5-7.9-2.1-11.3l-0.7-0.9-1.1 0.7c-1.3 0.9-2.5 0.9-3.8 0.1-2.6-1.6-1.4-4.7 1.8-4.7 2.9 0 6.2 3.5 7.9 8.6l0.8 2.3 0.2-1.9c0.2-2.3 1-4.7 2.5-7.2l1.1-1.9 0.2 2.5c0.3 3.8 1.4 6.2 4 8.9l1.4 1.5-3.2 0c-3.1 0-3.2 0-3.4-0.6-0.3-1 0-1.6 0.8-1.6 1 0 1.1-0.2 0.4-1.3-0.4-0.6-0.8-1.4-0.9-1.9-0.3-1.3-0.6-1-1.1 0.8-0.7 3.4 0.2 7 2.7 10.2l0.9 1.3 0.9-0.7c1.6-1.4 4.3-0.9 5.2 0.9 0.5 1 0.4 1.5-0.7 2.6-0.8 0.8-1.2 1-2.1 1-1.4 0-3.2-0.9-4.8-2.5-1.7-1.7-2.7-3.5-3.7-6.3-0.6-1.8-0.8-2.1-0.8-1.4-0.1 2.5-1.3 6-3.2 9l-0.9 1.5 0-2.1z"/>
+</symbol>
+
+<!-- Instagram -->
+<symbol id="icon-instagram" viewBox="0 0 24 24">
+  <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5a4.25 4.25 0 0 0 4.25-4.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zm5.25-.75a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5z" />
+</symbol>
+
+</svg>
+
+<div class="site-wrapper">
+  <div class="site-main">
+    <div class="inner">
+
+      <div id="image01" class="image-component instance-1 full">
+        <span class="frame deferred" style="background-color:#38345c;">
+          <img src="https://avatars.githubusercontent.com/u/8224597?v=4" data-src="done" alt="Dino Grejo" style="opacity:1;" loading="lazy">
+        </span>
+      </div>
+
+      <div id="columns01" class="container-component columns01 default">
+        <div class="wrapper">
+          <div class="inner">
+            <h1 id="text02" class="text-component instance-2">Dino Grejo</h1>
+            <p id="text01" class="text-component instance-1">Logística & Música</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ✅ BIO com instance-4 (fonte menor e cor mais clara) -->
+      <p id="text03" class="text-component instance-4">
+        Logística e Música, (vibe)code e tecnologia, são coisas que gosto e faço.
+      </p>
+
+      <ul id="icons01" class="icons-component instance-1">
+
+        <li>
+          <a class="n01" href="https://github.com/dgrej" target="_blank" rel="noopener" role="button" aria-label="GitHub">
+            <svg aria-hidden="true"><use xlink:href="#icon-github"></use></svg>
+            <span class="label">GitHub</span>
+          </a>
+        </li>
+
+        <li>
+          <a class="n02" href="https://x.com/dinogrejo" target="_blank" rel="noopener" role="button" aria-label="X">
+            <svg aria-hidden="true"><use xlink:href="#icon-x"></use></svg>
+            <span class="label">X</span>
+          </a>
+        </li>
+
+        <li>
+          <a class="n03" href="https://tiktok.com/@dinogrejo" target="_blank" rel="noopener" role="button" aria-label="TikTok">
+            <svg aria-hidden="true"><use xlink:href="#icon-tiktok"></use></svg>
+            <span class="label">TikTok</span>
+          </a>
+        </li>
+
+        <li>
+          <a class="n04" href="https://youtube.com/dinogrejo" target="_blank" rel="noopener" role="button" aria-label="YouTube">
+            <svg aria-hidden="true"><use xlink:href="#icon-youtube"></use></svg>
+            <span class="label">YouTube</span>
+          </a>
+        </li>
+
+        <li>
+          <a class="n05" href="https://instagram.com/dinogrejo" target="_blank" rel="noopener" role="button" aria-label="Instagram">
+            <svg aria-hidden="true"><use xlink:href="#icon-instagram"></use></svg>
+            <span class="label">Instagram</span>
+          </a>
+        </li>
+
+        <li>
+          <a class="n06" href="https://dinogrejo.bandcamp.com/" target="_blank" rel="noopener" role="button" aria-label="Bandcamp">
+            <svg aria-hidden="true"><use xlink:href="#icon-bandcamp"></use></svg>
+            <span class="label">Bandcamp</span>
+          </a>
+        </li>
+
+        <li>
+         <a class="n07" href="https://dgrej.github.io/" target="_blank" rel="noopener" role="button" aria-label="Website">
+          <svg aria-hidden="true"><use xlink:href="#icon-website"></use></svg>
+          <span class="label">Website</span>
+         </a>
+        </li>
+
+      </ul>
+
     </div>
-
-    <h1>DINO GREJO</h1>
-    <p class="subtitle">Logística &amp; Música</p>
-
-    <div class="tags">
-      <span class="tag">Logistics</span>
-      <span class="tag">Music</span>
-    </div>
-
-    <div class="divider"></div>
-
-    <ul class="social-icons">
-      <!-- X -->
-      <li>
-        <a href="https://x.com/dinogrejo" target="_blank" aria-label="X">
-          <svg viewBox="0 0 24 24"><path d="M20.643 3.437h-3.48l-4.7 6.39-4.536-6.39H3.357l6.75 9.547-6.75 9.578h3.48l4.89-6.626 4.751 6.626h3.505l-6.937-9.69 6.937-9.458z"/></svg>
-        </a>
-      </li>
-      <!-- GitHub -->
-      <li>
-        <a href="https://github.com/dgrej" target="_blank" aria-label="GitHub">
-          <svg viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.373 0 12a12.01 12.01 0 0 0 8.208 11.387c.6.113.82-.26.82-.577v-2.234c-3.338.726-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.083-.73.083-.73 1.205.086 1.84 1.24 1.84 1.24 1.07 1.834 2.809 1.304 3.494.997.108-.776.418-1.305.762-1.605-2.665-.308-5.466-1.335-5.466-5.933 0-1.31.468-2.382 1.236-3.22-.124-.303-.536-1.523.117-3.176 0 0 1.008-.322 3.3 1.23a11.47 11.47 0 0 1 3-.404c1.02.005 2.047.138 3.002.404 2.29-1.553 3.297-1.23 3.297-1.23.655 1.653.243 2.873.12 3.176.77.838 1.235 1.91 1.235 3.22 0 4.61-2.805 5.62-5.475 5.922.43.37.823 1.102.823 2.222v3.293c0 .32.218.694.825.576A12.012 12.012 0 0 0 24 12c0-6.627-5.373-12-12-12z"/></svg>
-        </a>
-      </li>
-      <!-- TikTok -->
-      <li>
-        <a href="https://tiktok.com/@dinogrejo" target="_blank" aria-label="TikTok">
-          <svg viewBox="0 0 48 48"><path d="M33.9 14.1c-2.2-1.1-3.8-3.2-4.1-5.7H26v23.7c0 2.2-1.8 4-4 4s-4-1.8-4-4c0-1.6 1-3 2.4-3.6v-5.1c-4.3.7-7.6 4.5-7.6 9 0 5 4 9 9 9s9-4 9-9V18.3c1.6 1.3 3.5 2.2 5.6 2.5v-6.1c-1.2-.2-2.3-.6-3.5-1.1z"/></svg>
-        </a>
-      </li>
-      <!-- YouTube -->
-      <li>
-        <a href="https://youtube.com/dinogrejo" target="_blank" aria-label="YouTube">
-          <svg viewBox="0 0 24 24"><path d="M23.5 6.2s-.2-1.6-.9-2.3c-.9-.9-1.9-.9-2.3-1C17.3 2.5 12 2.5 12 2.5h0s-5.3 0-8.3.4c-.4 0-1.5.1-2.3 1C.7 4.6.5 6.2.5 6.2S0 8.1 0 10v4c0 1.9.5 3.8.5 3.8s.2 1.6.9 2.3c.9.9 2.1.9 2.6 1 1.9.1 8 .4 8 .4s5.3 0 8.3-.4c.4 0 1.5-.1 2.3-1 .7-.7.9-2.3.9-2.3S24 15.9 24 14v-4c0-1.9-.5-3.8-.5-3.8zM9.6 15.5v-7l6.4 3.5-6.4 3.5z"/></svg>
-        </a>
-      </li>
-      <!-- Email -->
-      <li>
-        <a href="mailto:dinogrejo@gmail.com" target="_blank" aria-label="Email">
-          <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 2v.01L12 13 4 6.01V6h16zM4 18V8.2l7.6 6.8c.3.3.8.3 1.1 0L20 8.2V18H4z"/></svg>
-        </a>
-      </li>
-    </ul>
   </div>
+</div>
 
-  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
-    // Mouse parallax effect on card
-    const card = document.querySelector('.card');
-    const glow = document.querySelector('.glow');
+<script>
+(function() {
+  var $body = document.body;
 
-    document.addEventListener('mousemove', (e) => {
-      const x = (e.clientX / window.innerWidth - 0.5) * 2;
-      const y = (e.clientY / window.innerHeight - 0.5) * 2;
-      card.style.transform = `perspective(800px) rotateY(${x * 6}deg) rotateX(${-y * 6}deg)`;
-      glow.style.transform = `translate(calc(-50% + ${x * 30}px), calc(-50% + ${y * 30}px))`;
+  window.addEventListener('load', function() {
+    setTimeout(function() {
+      $body.classList.remove('is-loading');
+      $body.classList.add('is-playing');
+      setTimeout(function() {
+        $body.classList.remove('is-playing');
+        $body.classList.add('is-ready');
+      }, 1250);
+    }, 100);
+  });
+
+  var isMobile = /android|iphone|ipad/i.test(navigator.userAgent);
+  if (isMobile) {
+    var setVH = function() {
+      document.documentElement.style.setProperty('--viewport-height', window.innerHeight + 'px');
+    };
+    window.addEventListener('load', setVH);
+    window.addEventListener('orientationchange', function() {
+      setTimeout(setVH, 100);
     });
+  }
+})();
+</script>
 
-    document.addE
+</body>
+</html>
